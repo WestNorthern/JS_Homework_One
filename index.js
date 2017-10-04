@@ -30,6 +30,25 @@ let carArray = [["Bentley", "Other Bentley", "Third Bentley"],["James Bond Car",
 // of what the value was and that it was greater than 100.
 // Three
 
+let userNumber = prompt('User, you must supply a number!');
+
+
+function checkNumber(num){
+	if(num < 100){
+		alert("That number is less than 100");
+	}
+	else if(num > 100){
+		alert("The number you chose to supply is " + userNumber + ", which is of course greater than 100!");
+	}
+	else if(num === 100){
+		alert("One Hunnet!");
+	}
+	else{
+		alert("I don't think that was a number, buddy!");
+	}
+}
+
+checkNumber(userNumber);
 
 // Declare a function that takes a name as an argument and tells the user what name they've entered. 
 // Try running it after it has been declared.
