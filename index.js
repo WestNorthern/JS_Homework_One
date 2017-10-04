@@ -76,7 +76,9 @@ nameEchoIntermediate();
 // Try running it after it has been declared.
 // Five
 
-
+function greatFunction() {
+	console.log("I am a great function.");
+}
 
 // Declare a function that lets you choose which door to open of 3 doors (like the TV game show). 
 // Behind one of the doors is a goat, behind another is a Jeep, and behind another is a can of worms. 
