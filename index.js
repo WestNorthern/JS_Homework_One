@@ -18,6 +18,12 @@ console.log(firstHalf + secondHalf);
 // BMW cars, and Bentley cars, 3 cars of each make.
 // Two
 
+let coolArray = [["Fantasy Ridge", "Jupiter Peak"], ["Cathedral Cirque", "Silver Fork"]];
+
+console.log(coolArray[0][0] + " is a way more interesting ski area than " + coolArray[1][0]);
+
+let carArray = [["Bentley", "Other Bentley", "Third Bentley"],["James Bond Car", "Bofeldmobile", "Bug Eyed Sprite"],["Z4", "TZ88", "Z77"]];
+
 
 // Write a script that checks if a variable captured from a js prompt is less than 100. 
 // If it is, alert the user that their variable is less than 100. If it is not alert the user 
