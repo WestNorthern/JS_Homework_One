@@ -3,6 +3,17 @@
 // One
 
 
+let firstNumber = 19;
+let secondNumber = 262;
+
+console.log(firstNumber + secondNumber);
+
+let firstHalf = "Malt can do more than Milton can, ";
+let secondHalf = "to justify the ways of Him to man.";
+
+console.log(firstHalf + secondHalf);
+
+
 // Create a multidimensional array. The array will be an array of Aston Martin cars, 
 // BMW cars, and Bentley cars, 3 cars of each make.
 // Two
