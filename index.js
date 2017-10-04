@@ -84,3 +84,52 @@ function greatFunction() {
 // Behind one of the doors is a goat, behind another is a Jeep, and behind another is a can of worms. 
 // Alert the user which prize they got when a door number is passed in.
 // Six
+
+function prizeDoors () {
+	let doorChoice = prompt("Pick a number between One and Three to discover which prize is yours!");
+	
+	if (parseInt(doorChoice) === 1) {
+		alert("You have chosen Door Number One! You won a can of worms!!!");
+	}
+	else if (parseInt(doorChoice) === 2) {
+		alert("Let's see what is behind Door Number Two! ... It is a goat.");
+	}
+	else if (parseInt(doorChoice) === 3) {
+		alert("Door Number Three!!! It is a freaking Jeep, bro!");
+	}
+  else {
+	  alert("You failed to pick a number between One and Three. Way to go! No prize for Mr. Smartypants over here.");
+	}
+}
+
+prizeDoors();
+
+
+// Number 6 Intermediate
+
+function prizeDoorsIntermediate() {
+	let prizeArray = ["Jeep", "Lobster Bisque", "Panera Gift Card", "Pick of Destiny", "Tesseract", "Billiam Jepskowski"];
+	let junkPrize = ["Moth balls", "Phlebotomist", "Goat", "Can of Worms", "Ricketts", "Vogon Poetry"];
+
+	let doorNumber = prompt("Okay, User. Pick a door!");
+
+	let rando = Math.floor(Math.random() * 6);
+
+	if (parseInt(doorNumber) === 1) {
+		alert(`You have chosen door number ${doorNumber}, so you win a ${prizeArray[rando]}!`);
+	}
+	else if (parseInt(doorNumber) === 2) {
+		alert(`You have chosen door number ${doorNumber}, so you win a ${prizeArray[rando]}!`);
+
+	}
+	else if (parseInt(doorNumber) === 3) {
+		alert(`You have chosen door number ${doorNumber}, so you win a ${prizeArray[rando]}!`);
+
+	}
+	else {
+		alert(`That is not a prize door. So here, you can have this: ${junkPrize[rando]}.`);
+	}
+}
+
+
+prizeDoorsIntermediate();
