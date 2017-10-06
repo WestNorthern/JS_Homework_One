@@ -54,8 +54,10 @@ checkNumber(userNumber);
 // Try running it after it has been declared.
 // Four
 
-function nameEcho(){
-	let name = prompt("Give me a name, any name!");
+let echoName = prompt("Give me a name, any name!");
+
+function nameEcho(name){
+	name = echoName;
 	alert("You have given me the name: " + name + "! amirite??");
 }
 
@@ -63,8 +65,10 @@ nameEcho();
 
 // Four Intermediate
 
-function nameEchoIntermediate() {
-	let name = prompt("Give me another name. I'll tell you some fascinating things.")
+let echoNameIn = prompt("Give me another name. I'll tell you some fascinating things.");
+
+function nameEchoIntermediate(name) {
+	name = echoNameIn;
 	let nameReversed = name.split('').reverse().join('');
 	alert("That name you just supplied is " + name + ".\n It is exactly " + name.length + " characters long.\nThat name reversed is: " + nameReversed);
 }
